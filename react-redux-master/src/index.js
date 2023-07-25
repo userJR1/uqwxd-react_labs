@@ -4,6 +4,7 @@ import App from './App';
 import {Provider} from 'react-redux';
 import myReducers from './reducers';
 import {legacy_createStore as createStore} from 'redux';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //Create the store
 const myStore = createStore(myReducers);

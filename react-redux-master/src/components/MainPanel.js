@@ -5,8 +5,9 @@ import DivPanel from './DivPanel';
 const MainPanel = ()=>{
     return (
         <div>
-            This is main panel <MyButton></MyButton>
-            <DivPanel></DivPanel>
+            <h5 className="h5 display-5 mt-5 mb-3">This is the main panel</h5> 
+            <MyButton/>
+            <DivPanel/>
         </div>
     );
 }
